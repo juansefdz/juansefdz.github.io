@@ -206,9 +206,8 @@ body {
 
 /* caja negra info*/
 .home .card {
-  width: 300px;
-  height: 300px;
-  background: rgb(0, 0, 0, 0.5);
+  width: 600px;
+  height: 400px;
   border-radius: 20px;
   padding: 30px;
   width: max-content;
@@ -219,17 +218,65 @@ body {
   display: flex;
   /* centra verticalmente */
   align-items: center;
+  
 }
+
+.galery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-box{
+  width: 100px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 10px;
+  background: url(/portafolio/Displays/img/qyuUgpF.png);
+  background-size: cover;
+  background-position:center;
+  position: relative;
+  transition: width 0.5s;
+
+}
+.img-box:nth-child(2){
+  
+  background: url(/portafolio/Displays/img/sl_070720_32260_31.jpg);
+  background-size: cover;
+  background-position:center;
+
+}
+.img-box:nth-child(3){
+  
+  background: url(/portafolio/Displays/img/sl_070720_32260_31.jpg);
+  background-size: cover;
+  background-position:center;
+
+}
+.img-box h3{
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  opacity: 0;
+  transition: bottom 0.5s opacity 0.5s;
+}
+
+.img-box:hover{
+  width: 300px;
+  cursor: pointer;
+}
+.img-box:hover h3{
+  width: 300px;
+  bottom: 25px;
+}
+
 /*footer*/
 .logo-riwi {
   display: flexbox;
   width: 30px;
   height: 30px;
- 
-  
 }
 .logo-riwi .riwi {
   width: 150px;
   height: 150px;
-  
 }
