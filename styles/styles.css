@@ -218,65 +218,39 @@ body {
   display: flex;
   /* centra verticalmente */
   align-items: center;
-  
 }
-
-.galery {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.img-box{
-  width: 100px;
-  height: 350px;
-  margin: 10px;
-  border-radius: 10px;
-  background: url(/portafolio/Displays/img/qyuUgpF.png);
-  background-size: cover;
-  background-position:center;
+.slider {
+  aspect-ratio: 16/16;
+  width: 450px;
   position: relative;
-  transition: width 0.5s;
-
+  display: flex;
+  overflow: scroll;
+  scroll-snap-type: mandatory;
 }
-.img-box:nth-child(2){
-  
-  background: url(/portafolio/Displays/img/sl_070720_32260_31.jpg);
-  background-size: cover;
-  background-position:center;
-
-}
-.img-box:nth-child(3){
-  
-  background: url(/portafolio/Displays/img/sl_070720_32260_31.jpg);
-  background-size: cover;
-  background-position:center;
-
-}
-.img-box h3{
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 30px;
-  opacity: 0;
-  transition: bottom 0.5s opacity 0.5s;
+.slider img {
+  width: 100%;
+  left: 0;
+  position: relative;
+  object-fit: cover;
+  border-radius: 5px;
+  scroll-snap-align: center;
 }
 
-.img-box:hover{
-  width: 300px;
-  cursor: pointer;
-}
-.img-box:hover h3{
-  width: 300px;
-  bottom: 25px;
+.back {
+  display: flex;
+  padding: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 30px;
 }
 
-/*footer*/
-.logo-riwi {
-  display: flexbox;
-  width: 30px;
-  height: 30px;
-}
-.logo-riwi .riwi {
-  width: 150px;
-  height: 150px;
+.info-contact {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  color: #ffffff;
 }
