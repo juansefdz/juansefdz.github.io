@@ -49,7 +49,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  
 }
 
 .container {
@@ -97,7 +96,6 @@ body {
   padding-bottom: 5px;
 }
 /*Fin de Estilos para el encabezado*/
-
 
 /*zona skills desplegable*/
 #button-menu {
@@ -172,7 +170,6 @@ body {
 }
 /*ubicacion logos lenguajes*/
 .images-container {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,7 +187,6 @@ body {
   padding: 10px 10% 0;
   overflow: hidden;
 }
-
 
 /*configuracion nombre*/
 .home .home-content h1 {
@@ -210,23 +206,23 @@ body {
 }
 
 /* zona proyectos*/
-.proyects-container{
+.proyects-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 20px;
 }
-.proyects-container h1{
+.proyects-container h1 {
   color: #fff;
 }
-.cards-container{
+.cards-container {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   justify-items: center;
   gap: 20px;
 }
-.card{
+.card {
   position: relative;
   width: 300px;
   height: 350px;
@@ -241,19 +237,18 @@ body {
   transition: 0.5s;
 }
 
-.card .front{
+.card .front {
   transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0 5px 10px #000 ;
-
+  box-shadow: 0 5px 10px #000;
 }
 
-.card .front img{
+.card .front img {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.card .front h3{
+.card .front h3 {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -264,7 +259,7 @@ body {
   text-align: center;
 }
 
-.card .back{
+.card .back {
   transform: perspective(600px) rotateY(180deg);
   background: #120f12;
   padding: 15px;
@@ -276,33 +271,32 @@ body {
   box-shadow: 0 5px 10px #000;
 }
 
-.card .back .link{
+.card .back .link {
   border-top: solid 1px #2e1830;
   height: 50px;
   line-height: 50px;
-
 }
 
-.card .back .link a{
-color: #c7c7c7;
+.card .back .link a {
+  color: #c7c7c7;
 }
 
-.card .back h3{
+.card .back h3 {
   font-size: 30px;
   margin-top: 20px;
   letter-spacing: 2px;
 }
 
-.card .back p{
-  letter-spacing:1px ;
+.card .back p {
+  letter-spacing: 1px;
 }
 
-.card:hover .front{
-  transform: perspective(600px)rotateY(180deg);
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover .back{
-  transform: perspective(600px)rotateY(360deg);
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }
 
 .back {
@@ -314,8 +308,6 @@ color: #c7c7c7;
   font-size: 30px;
 }
 /* fin zona proyectos */
-
-
 
 .info-contact {
   display: flex;
