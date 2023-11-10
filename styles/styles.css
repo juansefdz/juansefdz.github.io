@@ -280,7 +280,7 @@ body {
 }
 
 .card .back h3 {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   letter-spacing: 2px;
 }
@@ -301,9 +301,9 @@ body {
   display: flex;
   padding: 50px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
 }
 /* fin zona proyectos */
 
