@@ -130,6 +130,15 @@ body {
   padding: 10px 10% 0;
   overflow: hidden;
 }
+<<<<<<< HEAD
+.projects{
+  width: 100vw;
+  height: 100vh;
+}
+
+/* zona proyectos*/
+.projects-container {
+=======
 
 
 
@@ -139,12 +148,17 @@ body {
 
 /* zona proyectos*/
 .proyects-container {
+>>>>>>> 19154e1b9b0f8b59269e27ec233f62cc8d9ea7ac
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 20px;
 }
+<<<<<<< HEAD
+.projects-container h1 {
+=======
 .proyects-container h1 {
+>>>>>>> 19154e1b9b0f8b59269e27ec233f62cc8d9ea7ac
   color: #fff;
 }
 
@@ -178,3 +192,106 @@ body {
   font-size: 50px;
   color: #000000;
 }
+<<<<<<< HEAD
+
+
+/* zona proyectos*/
+
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  gap: 20px;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+}
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: #494848;
+  text-align: center;
+}
+
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: #120f12;
+  padding: 15px;
+  color: #c7c7c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 20px #535353;
+}
+
+.card .back .link {
+  border-top: solid 1px #2e1830;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.card .back .link a {
+  color: #c7c7c7;
+}
+
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card .back p {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.back {
+  display: flex;
+  padding: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+}
+/* fin zona proyectos */
+=======
+>>>>>>> 19154e1b9b0f8b59269e27ec233f62cc8d9ea7ac

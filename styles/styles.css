@@ -49,12 +49,16 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  margin: 20px;
 }
 
-.container {
+.header .container {
+  display: flex;
+  justify-content: space-around;
   width: 80%;
   height: 100vh;
   margin: auto;
+  
 }
 .titulo-proyectos {
   color: #ffffff;
@@ -120,12 +124,23 @@ body {
 .cont-menu {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
   background: rgba(32, 31, 31);
   position: relative;
   transition: all 500ms ease;
 }
 #button-menu:checked ~ .container-menu .cont-menu {
   transform: translateX(0%);
+}
+
+.pic img{
+  width: 600px;
+  height: 600px;
+  margin-bottom: 0; 
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 75%, rgba(255, 255, 255, 0));
+ 
+
 }
 
 .cont-menu nav {
@@ -143,6 +158,7 @@ body {
 /* config de la X */
 .cont-menu label {
   position: absolute;
+  z-index: 1;
   right: 50px;
   top: 50px;
   color: #fff;
@@ -151,18 +167,17 @@ body {
 }
 /* configuracion de logos con animacion */
 .info-container{
-  width: 50%;
-  height: 90%;
-  padding: 60px;
-  
-  
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .info-container h1{
   color: #fff;
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: 500;
   text-align: justify;
 }
 .logo {
@@ -203,8 +218,8 @@ body {
 }
 
 /*configuracion nombre*/
-.home .home-content h1 {
-  font-size: 35px;
+.home .home-content h1, a {
+  font-size: 30px;
   color: #fff;
 }
 
@@ -220,6 +235,7 @@ body {
 }
 
 /* zona proyectos*/
+
 .proyects-container {
   display: flex;
   align-items: center;
@@ -228,6 +244,10 @@ body {
 }
 .proyects-container h1 {
   color: #fff;
+}
+.proyects-container a {
+  text-decoration: none;
+  cursor: pointer;
 }
 .cards-container {
   display: flex;
