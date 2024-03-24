@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     baseColor: 0x50325,
     blurFactor: 0.51,
     speed: 2,
-    zoom: 2.40
-
+    zoom: 2.4,
   });
 });
