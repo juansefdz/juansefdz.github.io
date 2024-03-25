@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   VANTA.FOG({
-    el: ".info-container",
+    el: "#background",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,

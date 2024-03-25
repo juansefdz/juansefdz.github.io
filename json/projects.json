@@ -1,0 +1,87 @@
+[
+    {
+      "project_name": "AdvInterview",
+      "website": "https://advinterview.vercel.app/",
+      "info": "This project arises from the need to provide programming students who are about to enter the workforce with the minimum foundations to prepare for a job interview in technical skills, logical skills, and life skills. Collaborative project.",
+      "imagen":"./Displays/img/projectsImg/advinterview.png"
+    },
+    {
+      "project_name": "SAMI",
+      "website": "",
+      "info": "This project arises from the need to provide programming students who are about to enter the workforce with the minimum foundations to prepare for a job interview in technical skills, logical skills, and life skills. Collaborative project.",
+      "imagen":"./Displays/img/projectsImg/sami.png"
+    },
+    {
+      "project_name": "Christmas Counter",
+      "website": "https://juansefdz.com/Contador-navidad/",
+      "info": "Christmas countdown project!",
+      "imagen":"./Displays/img/projectsImg/christmas.png"
+    },
+    {
+      "project_name": "Sports Cars - Filter Management",
+      "website": "https://juansefdz.com/filtro-carros/",
+      "info": "Project carried out in order to handle filters according to user needs.",
+      "imagen":"./Displays/img/projectsImg/cars.png"
+    },
+    {
+      "project_name": "Hogwarts",
+      "website": "https://juansefdz.com/Hogwarts/",
+      "info": "Use of JavaScript with a project based on Hogwarts School of Witchcraft and Wizardry.",
+      "imagen":"./Displays/img/projectsImg/hogwarts.png"
+    },
+    {
+      "project_name": "Riwi Ecological",
+      "website": "https://juansefdz.com/riwi-ecolgico/",
+      "info": "Garbage management system with capacity indicator and ecological level",
+      "imagen":"./Displays/img/projectsImg/riwieco.png"
+    },
+    {
+      "project_name": "Veterinary Appointment Management System",
+      "website": "https://juansefdz.com/veterinary-system/",
+      "info": "veterinary appointment management system",
+      "imagen":"./Displays/img/projectsImg/vetsys.png"
+    },
+    {
+      "project_name": "Movie Search System",
+      "website": "https://juansefdz.com/buscador-peliculas/",
+      "info": "Page for handling and consuming the API https://www.omdbapi.com/",
+      "imagen":"./Displays/img/projectsImg/movies.png"
+    },
+    {
+      "project_name": "Image Search System",
+      "website": "https://juansefdz.com/buscador-imagenes-pixabay-/",
+      "info": "Page for handling and consuming the API https://pixabay.com/",
+      "imagen":"./Displays/img/projectsImg/images.png"
+    },
+    {
+      "project_name": "SpaceX",
+      "website": "https://juansefdz.com/spaceX/",
+      "info": "Consumption of the SpaceX API - shows all missions with their respective name, mission logo, rocket type, and launch video.",
+      "imagen":"./Displays/img/projectsImg/spacex.png"
+    },
+    {
+      "project_name": "RiwiJobs",
+      "website": "https://juansefdz.com/riwi-jobs/",
+      "info": "Development of a web application called 'Riwi Jobs' using JSON Server as a fake backend and Vanilla JavaScript for the frontend. The application will have four main views: a public one to list job positions, one for login, one for company registration, and another for vacancy management per company.",
+      "imagen":"./Displays/img/projectsImg/riwijobs.png"
+    },
+    {
+      "project_name": "ColombiaTravel",
+      "website": "https://juansefdz.com/colombia-travel",
+      "info": "tourism agency template handling of css and html",
+      "imagen":"./Displays/img/projectsImg/colombiaTravel.png"
+    },
+    {
+      "project_name": "PizzaPizza",
+      "website": "https://juansefdz.com/PizzaPizza/",
+      "info": "pizzeria template creation",
+      "imagen":"./Displays/img/projectsImg/pizza.png"
+    },
+    {
+      "project_name": "OTHERS",
+      "website": "https://github.com/juansefdz",
+      "info": "At https://github.com/juansefdz you can find different repositories with workshops or practical exercises where I have practiced knowledge in HTML, CSS, Python, Java, JavaScript, database management, among others.",
+      "imagen":"./Displays/img/projectsImg/git.png"
+    }
+  ]
+  

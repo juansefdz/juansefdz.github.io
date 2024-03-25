@@ -14,47 +14,31 @@
 body {
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(
-    340deg,
-    #3c3f3f,
-    #000000,
-    #0f0e10,
-    #2e1830,
-    #120f12,
-    #232223,
-    #000000
-  );
-  background-size: 200%;
-  animation: animacionfondo 20s infinite;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer y Edge */
 }
-
-@keyframes animacionfondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+body::-webkit-scrollbar {
+  width: 0;
 }
 
 .header {
   width: 100%;
   height: 80px;
-  
+
   position: fixed;
   top: 0;
   left: 0;
 }
 
 .container {
-  width: 80%;
+  width: 90vw;
   height: 100vh;
   margin: auto;
+  display: flex;
+  position: relative;
+  
 }
 .titulo-proyectos {
   color: #ffffff;
@@ -90,13 +74,15 @@ body {
   border-bottom: 1px solid transparent;
   font-size: 20px;
   margin-right: 10px;
+  cursor: pointer;
+
+  
 }
 .container .menu a:hover {
   border-bottom: 2px solid #c7c7c7;
   padding-bottom: 5px;
 }
 /*Fin de Estilos para el encabezado*/
-
 
 /* configuracion de logos con animacion */
 
@@ -118,59 +104,34 @@ body {
   }
 }
 
-
-.home {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  gap: 30px;
-
-  padding: 10px 10% 0;
-  overflow: hidden;
-}
-<<<<<<< HEAD
-.projects{
-  width: 100vw;
-  height: 100vh;
-}
-
 /* zona proyectos*/
 .projects-container {
-=======
-
-
-
-
-
-
-
-/* zona proyectos*/
-.proyects-container {
->>>>>>> 19154e1b9b0f8b59269e27ec233f62cc8d9ea7ac
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  align-items: center;
-  flex-direction: column;
   gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  justify-content: space-around;
 }
-<<<<<<< HEAD
 .projects-container h1 {
-=======
-.proyects-container h1 {
->>>>>>> 19154e1b9b0f8b59269e27ec233f62cc8d9ea7ac
   color: #fff;
 }
 
-.projects{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 80%;
-    height: 80%;
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
-
+.projects h1 {
+  margin: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
 /* git bttn */
 
 .github-btn {
@@ -192,23 +153,13 @@ body {
   font-size: 50px;
   color: #000000;
 }
-<<<<<<< HEAD
+/* projects zone*/
 
-
-/* zona proyectos*/
-
-
-.cards-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  justify-items: center;
-  gap: 20px;
-}
 .card {
   position: relative;
   width: 300px;
-  height: 350px;
+  min-height: 350px;
+  background-color: transparent !important;
 }
 .card .face {
   position: absolute;
@@ -218,6 +169,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   transition: 0.5s;
+  color: #fff;
 }
 
 .card .front {
@@ -229,29 +181,33 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 .card .front h3 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  line-height: 45px;
-  line-height: 45px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   background: #494848;
   text-align: center;
+  font-size: 20px;
 }
 
 .card .back {
   transform: perspective(600px) rotateY(180deg);
-  background: #120f12;
-  padding: 15px;
+  background: #120f1280;
+  
   color: #c7c7c7;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  box-shadow: 0 5px 20px #535353;
+  box-shadow: 0 5px 30px #535353;
 }
 
 .card .back .link {
@@ -286,12 +242,10 @@ body {
 
 .back {
   display: flex;
-  padding: 50px;
+  padding: 20px;
   text-decoration: none;
   font-weight: 600;
   color: #ffffff;
   font-size: 17px;
 }
 /* fin zona proyectos */
-=======
->>>>>>> 19154e1b9b0f8b59269e27ec233f62cc8d9ea7ac
