@@ -1,0 +1,48 @@
+.home {
+    
+    width: 100vw;
+    height:100vh;
+    
+    
+
+}
+.images-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: -150px;
+    
+}
+.lenguage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.lenguage h1{
+    color: #fff;
+    
+}
+
+  
+.logo {
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(0px 0px 200px #dadada);
+    animation: rotar 10s linear infinite;
+   
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+  @keyframes rotar {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(-180deg);
+    }
+  }
+  /*ubicacion logos lenguajes*/
+  

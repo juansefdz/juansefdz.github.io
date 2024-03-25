@@ -76,7 +76,7 @@ body {
   text-align: justify;
 }
 .presentation-container h1,
-a {
+a,p {
   font-size: 25px;
   color: #fff;
   font-weight: 400;

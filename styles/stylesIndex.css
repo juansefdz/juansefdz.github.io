@@ -1,5 +1,7 @@
 /*importaciones*/
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Signika+Negative:wght@300;700&display=swap");
+@import "https://unpkg.com/transition-style";
+
 /* configuracion body */
 
 * {
@@ -14,6 +16,8 @@
 body {
   width: 100%;
   height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /*HEADER*/
@@ -104,8 +108,11 @@ a {
 .slider {
   width: 90%;
   height: 60%;
-  background-color: blue;
+  background: transparent !important;;
 }
+
+
+
 /*FIN ZONA DERECHA HOME (PROYECTOS)*/
 
 /* git bttn */

@@ -14,4 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
     speed: 2,
     zoom: 2.4,
   });
+
 });
