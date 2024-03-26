@@ -30,6 +30,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 .header a {
   text-decoration: none;
@@ -42,7 +43,7 @@ body {
 }
 
 .header-info {
-  margin: 0 50px; 
+  margin: 0 50px;
 }
 
 .button-menu {
@@ -69,7 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
 }
 /*configuracion nombre*/
 .home .home-content h1,
@@ -88,31 +89,86 @@ a {
 
 /* zona proyectos*/
 
-.proyects-container {
-  width: 50vw;
-  height: 100vh;
-  gap: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  
-}
-.proyects-container h1 {
 
+.proyects-container h1{
   color: #fff;
+  text-align: center;
 }
 .proyects-container a {
   text-decoration: none;
   cursor: pointer;
 }
-.slider {
-  width: 90%;
-  height: 60%;
-  background: transparent !important;;
+/*SLIDER*/
+.projects-container {
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, #FFFFFF, #E0E0E0); /* Fondo degradado */
+  text-align: center;
+}
+
+.slider-wrapper {
+  position: relative;
+  width: 600px;
+  height: 450px; /* Altura del slider */
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 10%; /* Bordeado circular */
 }
 
 
+
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-size:cover;
+  background-position: center;
+  transition: opacity 0.5s ease;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide h2 {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.798);
+  padding: 10px;
+  margin-top: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  z-index: 1;
+  border-radius: 20%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+/*FIN SLIDER*/
 
 /*FIN ZONA DERECHA HOME (PROYECTOS)*/
 
