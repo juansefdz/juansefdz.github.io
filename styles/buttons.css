@@ -1,0 +1,17 @@
+
+  
+  #btn:hover,
+  :focus {
+    color: #ffffff;
+    background: #4f13dc;
+    border: 10px solid #4f13dc;
+    text-shadow: 0 0 30px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 30px #4f13dc, 0 0 20px #4f13dc, 0 0 50px #4f13dc, 0 0 100px #4f13dc;
+    scale: 3;
+    border-radius: 10px;
+  }
+  
+  #btn:active {
+    transform: scale(1.8);
+  }
+  

@@ -13,6 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
       const sectionId = event.target.getAttribute("href").substring(1);
       navigateToSection(sectionId);
+
+      // Agregar clase de animación al texto del encabezado
+      const headerText = document.querySelector(".home-content h1");
+      headerText.classList.add("animate-text");
+      
+      // Eliminar la clase de animación después de un tiempo para que se pueda volver a animar en el próximo clic
+      setTimeout(() => {
+        headerText.classList.remove("animate-text");
+      }, 2000); // Ajusta el tiempo según la duración de tu animación en CSS
     });
   });
 });
