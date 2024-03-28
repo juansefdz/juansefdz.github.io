@@ -1,0 +1,39 @@
+/* Estilos de la sección Acerca de Mí */
+#aboutMe {
+    background-color: hwb(0 4% 96% / 0.211);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .presentation-container {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .presentation-container h1 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 400;
+  }
+  
+  .pic {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pic img {
+    max-width: 100%;
+    max-height: 100%;
+    mask-image: linear-gradient(
+      to bottom,
+      rgb(255, 255, 255) 75%,
+      rgba(255, 255, 255, 0)
+    );
+  }

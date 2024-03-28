@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  overflow-x: hidden;
+}
+
+/* Estilos del encabezado */
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-info {
+  margin: 0 20px;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Estilos de los botones de contacto */
+
+.whatsapp-btn {
+  border-radius: 50%;
+  padding: 5px;
+  position: fixed;
+  right: 30px;
+  bottom: 270px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-btn i {
+  font-size: 50px;
+  color: #25d366;
+}
+
+.linkedin-btn {
+  border-radius: 50%;
+  padding: 5px;
+  position: fixed;
+  right: 30px;
+  bottom: 190px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.linkedin-btn:hover {
+  transform: scale(1.2);
+}
+
+.linkedin-btn i {
+  font-size: 50px;
+  color: #0a66c2;
+}
+
+.gmail-btn {
+  border-radius: 50%;
+  padding: 5px;
+  position: fixed;
+  right: 30px;
+  bottom: 110px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gmail-btn:hover {
+  transform: scale(1.2);
+}
+
+.gmail-btn i {
+  font-size: 50px;
+  color: #ea4335;
+}
+
+.github-btn {
+  border-radius: 50%;
+  padding: 5px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.github-btn:hover {
+  transform: scale(1.2);
+}
+
+.github-btn i {
+  font-size: 50px;
+  color: #763ec6;
+}

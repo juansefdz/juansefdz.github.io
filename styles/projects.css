@@ -1,0 +1,13 @@
+
+#projects {
+    background-color: #33333321;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }

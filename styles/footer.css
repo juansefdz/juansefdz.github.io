@@ -1,0 +1,33 @@
+.footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    padding: 20px; /* Espaciado interno del footer */
+    text-align: center; /* Centrar el contenido del footer */
+  }
+  
+  .footer-content {
+    margin-bottom: 10px; /* Espaciado inferior entre secciones */
+  }
+  
+  .footer-navigation,
+  .footer-contact,
+  .footer-social {
+    margin-bottom: 10px; /* Espaciado inferior entre secciones */
+  }
+  
+  .footer-navigation a,
+  .footer-contact a,
+  .footer-social a {
+    color: #fff; /* Color de enlaces del footer */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+  }
+  
+  .footer-navigation a:hover,
+  .footer-contact a:hover,
+  .footer-social a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+  }
+  
+  .footer-copyright {
+    margin-top: 20px; /* Espaciado superior entre contenido y copyright */
+  }
