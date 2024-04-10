@@ -10,6 +10,13 @@ body {
   font-family: "Share Tech Mono", monospace;
   overflow-x: hidden;
 }
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
 
 /* Estilos del encabezado */
 .header {
