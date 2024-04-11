@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 /* Estilos generales */
 * {
   margin: 0;
@@ -7,8 +7,30 @@
 }
 
 body {
+  background:none;
   font-family: "Share Tech Mono", monospace;
   overflow-x: hidden;
+  
+
+  
+}
+
+/* nave */
+
+#nave {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: transform 0.2s ease-out;
+}
+
+#nave:hover {
+  transform: scale(1.2);
 }
 
 
@@ -121,6 +143,56 @@ body {
   font-size: 50px;
   color: #763ec6;
 }
+
+/* FOOTER SECTION */
+.footer {
+  background-color: #333;
+  padding: 30px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social-icons {
+  margin-top: 20px;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.footer-social-icons a:hover {
+  text-decoration: none;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+}
+
+/* KEYFRAMES */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -135,3 +207,4 @@ body {
 .animate-text {
   animation: fadeInUp 0.5s ease forwards;
 }
+

@@ -3,24 +3,34 @@
   background-color: hwb(0 4% 96% / 0.211);
   color: #fff;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
 }
 
+
 .presentation-container {
-  width: 70%;
-  padding: 100px;
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin: 250px;
+  padding-left: 100px;
+  
+  
+  
+}
+.personal-presentation{
+  width: 50%;
 }
 
 .presentation-container h1 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 25px;
   font-weight: 500;
 }
 
 .pic {
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -28,6 +38,8 @@
 }
 
 .pic img {
+  width: 550px;
+  height: 550px;
   max-width: 100%;
   max-height: 100%;
   mask-image: linear-gradient(

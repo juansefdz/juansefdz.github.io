@@ -2,7 +2,7 @@
 #main {
   color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -13,7 +13,12 @@
 }
 
 .home-content {
-  text-align: center;
+  text-align: left;
+  margin-left: 200px;
+  
+}
+.home-content h3 {
+  font-weight: 100;
 }
 
 .home-content h1 {
@@ -22,5 +27,5 @@
 }
 
 .home-content h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
