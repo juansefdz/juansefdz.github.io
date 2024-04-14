@@ -15,25 +15,6 @@ body {
   
 }
 
-/* nave */
-
-#nave {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100px;
-  height: 100px;
-  background-color: #333;
-  border-radius: 50%;
-  transition: transform 0.2s ease-out;
-}
-
-#nave:hover {
-  transform: scale(1.2);
-}
-
-
 /* Estilos del encabezado */
 .header {
   width: 100%;
@@ -45,6 +26,7 @@ body {
   left: 0;
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.8);
+  
 }
 
 .menu-container {
@@ -62,134 +44,10 @@ body {
   color: #fff;
 }
 
-/* Estilos de los botones de contacto */
 
-.whatsapp-btn {
-  border-radius: 50%;
-  padding: 5px;
-  position: fixed;
-  right: 30px;
-  bottom: 270px;
-  background: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: 0.3s;
-}
 
-.whatsapp-btn:hover {
-  transform: scale(1.2);
-}
 
-.whatsapp-btn i {
-  font-size: 50px;
-  color: #25d366;
-}
 
-.linkedin-btn {
-  border-radius: 50%;
-  padding: 5px;
-  position: fixed;
-  right: 30px;
-  bottom: 190px;
-  background: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.linkedin-btn:hover {
-  transform: scale(1.2);
-}
-
-.linkedin-btn i {
-  font-size: 50px;
-  color: #0a66c2;
-}
-
-.gmail-btn {
-  border-radius: 50%;
-  padding: 5px;
-  position: fixed;
-  right: 30px;
-  bottom: 110px;
-  background: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.gmail-btn:hover {
-  transform: scale(1.2);
-}
-
-.gmail-btn i {
-  font-size: 50px;
-  color: #ea4335;
-}
-
-.github-btn {
-  border-radius: 50%;
-  padding: 5px;
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  background: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.github-btn:hover {
-  transform: scale(1.2);
-}
-
-.github-btn i {
-  font-size: 50px;
-  color: #763ec6;
-}
-
-/* FOOTER SECTION */
-.footer {
-  background-color: #333;
-  padding: 30px 0;
-  color: #fff;
-  text-align: center;
-}
-
-.footer-content {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.footer-links {
-  margin-top: 20px;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 18px;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
-.footer-social-icons {
-  margin-top: 20px;
-}
-
-.footer-social-icons a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 24px;
-}
-
-.footer-social-icons a:hover {
-  text-decoration: none;
-}
-
-.footer-copyright {
-  margin-top: 20px;
-}
 
 /* KEYFRAMES */
 

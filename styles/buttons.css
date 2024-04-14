@@ -1,17 +1,56 @@
+/* Adjustments for button positioning */
+.whatsapp-btn,
+.linkedin-btn,
+.gmail-btn,
+.github-btn {
+  display: inline-block;
+  margin-bottom: 10px; /* Adjust margin as needed */
+  border-radius: 50%;
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+.whatsapp-btn:hover,
+.linkedin-btn:hover,
+.gmail-btn:hover,
+.github-btn:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-btn i,
+.linkedin-btn i,
+.gmail-btn i,
+.github-btn i {
+  font-size: 50px;
+  color: #25d366; /* WhatsApp button color */
+}
+
+.linkedin-btn i {
+  color: #0a66c2; /* LinkedIn button color */
+}
+
+.gmail-btn i {
+  color: #ea4335; /* Gmail button color */
+}
+
+.github-btn i {
+  color: #763ec6; /* GitHub button color */
+}
+
+/* Style for the buttons container */
+.buttons-section {
+  width: 5%;
   
-  #btn:hover,
-  :focus {
-    color: #ffffff;
-    background: #4f13dc;
-    border: 10px solid #4f13dc;
-    text-shadow: 0 0 30px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-    box-shadow: 0 0 30px #4f13dc, 0 0 20px #4f13dc, 0 0 50px #4f13dc, 0 0 100px #4f13dc;
-    scale: 3;
-    border-radius: 10px;
-  }
+  padding: 20px; 
+  display: flex;
+  align-items: last baseline;
+  justify-content:center;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
   
-  #btn:active {
-    transform: scale(1.8);
-  }
-  
+}

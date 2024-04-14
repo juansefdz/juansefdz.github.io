@@ -1,21 +1,40 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const aboutMeSection = document.getElementById("aboutMe");
-    const buttonsContainer = document.querySelector(".buttons");
+  const aboutMeSection = document.getElementById("aboutMe");
+  const buttonsSection = document.querySelector(".buttons-section");
+
+  // Create buttons container
+  const buttonsContainer = document.createElement("div");
+  buttonsContainer.className = "buttons";
   
-    window.addEventListener("scroll", function() {
-      // Obtener la posición de la sección "About Me"
-      const aboutMeSectionTop = aboutMeSection.offsetTop;
-      const aboutMeSectionHeight = aboutMeSection.clientHeight;
+  // Add button elements to the buttons container
+  buttonsContainer.innerHTML = `
+    <a href="" class="whatsapp-btn" target="_blank">
+      <i class="bx bxl-whatsapp"></i>
+    </a>
+    <a href="" class="gmail-btn" target="_blank">
+      <i class="bx bxl-gmail"></i>
+    </a>
+    <a href="" class="linkedin-btn" target="_blank">
+      <i class="bx bxl-linkedin"></i>
+    </a>
+    <a href="https://github.com/juansefdz" class="github-btn" target="_blank">
+      <i class="bx bxl-github"></i>
+    </a>
+  `;
   
-      // Calcular la posición del scroll
-      const scrollPosition = window.scrollY;
-  
-      // Mostrar u ocultar los botones según el scroll
-      if (scrollPosition >= aboutMeSectionTop && scrollPosition < aboutMeSectionTop + aboutMeSectionHeight) {
-        buttonsContainer.classList.remove("hidden");
-      } else {
-        buttonsContainer.classList.add("hidden");
-      }
-    });
+  // Append the buttons container to the buttons section
+  buttonsSection.appendChild(buttonsContainer);
+
+  // Add event listener to show/hide buttons based on scroll
+  window.addEventListener("scroll", function() {
+    const aboutMeSectionTop = aboutMeSection.offsetTop;
+    const aboutMeSectionHeight = aboutMeSection.clientHeight;
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition >= aboutMeSectionTop && scrollPosition < aboutMeSectionTop + aboutMeSectionHeight) {
+      buttonsContainer.classList.remove("hidden");
+    } else {
+      buttonsContainer.classList.add("hidden");
+    }
   });
-  
+});

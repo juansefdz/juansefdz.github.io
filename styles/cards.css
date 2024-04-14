@@ -3,7 +3,8 @@
   width: 250px;
   min-height: 350px;
   background-color: transparent !important;
-  margin: 10px;
+  border: none;
+  margin: 20px;
 }
 .card .face {
   position: absolute;
@@ -18,14 +19,13 @@
 
 .card .front {
   transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0 5px 10px #000;
+  box-shadow: 0 5px 10px #300054;
 }
 
 .card .front img {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .card .front h3 {
   position: absolute;
@@ -44,18 +44,16 @@
 
 .card .back {
   transform: perspective(600px) rotateY(180deg);
-  background: #120f1280;
-
+  background: #0f0f0f;
   color: #c7c7c7;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  box-shadow: 0 5px 30px #535353;
 }
 
 .card .back .link {
-  border-top: solid 1px #2e1830;
+  border-top: solid 1px #770082;
   height: 20px;
   line-height: 20px;
   text-decoration: none;

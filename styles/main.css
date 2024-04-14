@@ -1,3 +1,5 @@
+
+/*MAIN*/
 /* Estilos de la sección principal */
 #main {
   color: #fff;
@@ -6,15 +8,19 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
+  margin-top: 100px;
 }
 
-.hidden {
-  display: none;
-}
+
+
+
 
 .home-content {
   text-align: left;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  
   
 }
 .home-content h3 {
@@ -27,5 +33,18 @@
 }
 
 .home-content h3 {
-  font-size: 20px;
+  font-size: 30px;
+}
+
+.pic {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic img {
+  max-width: 100%;
+  max-height: 100%;
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 75%, rgba(255, 255, 255, 0));
 }
