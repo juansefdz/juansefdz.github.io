@@ -2,7 +2,6 @@ const cardContainer = document.querySelector(".projects-container");
 
 document.addEventListener("DOMContentLoaded", () => {
   searchProjects();
-
 });
 
 async function searchProjects() {
