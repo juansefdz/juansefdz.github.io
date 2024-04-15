@@ -1,32 +1,36 @@
 const cardContainer = document.querySelector(".projects-container");
 
 document.addEventListener("DOMContentLoaded", () => {
-    printProjects();
+  searchProjects();
+
+  document.addEventListener("scroll", () => {
+    searchProjects();
+  });
 });
 
-async function printProjects() {
-    const URL = "./json/projects.json";
-    try {
-        const answer = await fetch(URL);
-        const information = await answer.json();
-        printMisiones(information);
-    } catch (error) {
-        console.error("Error al obtener los datos de los proyectos:", error);
-    }
+async function searchProjects() {
+  const URL = "./json/projects.json";
+  try {
+    const answer = await fetch(URL);
+    const information = await answer.json();
+    printProjects(information);
+  } catch (error) {
+    console.error("Error al obtener los datos de los proyectos:", error);
+  }
 }
 
-function printMisiones(information) {
-    if (!information || information.length === 0) {
-        const alert = document.createElement("h2");
-        alert.textContent = "No se encontraron proyectos para mostrar";
-        alert.classList.add("alert");
-        cardContainer.appendChild(alert);
-        return;
-    }
-    information.forEach((proyect) => {
-        const proyectsContainer = document.createElement("div");
-        proyectsContainer.classList.add("card");
-        proyectsContainer.innerHTML = `
+function printProjects(information) {
+  if (!information || information.length === 0) {
+    const alert = document.createElement("h2");
+    alert.textContent = "No se encontraron proyectos para mostrar";
+    alert.classList.add("alert");
+    cardContainer.appendChild(alert);
+    return;
+  }
+  information.forEach((proyect) => {
+    const proyectsContainer = document.createElement("div");
+    proyectsContainer.classList.add("card");
+    proyectsContainer.innerHTML = `
             <div class="face front">
                 <img src="${proyect.imagen}" alt="${proyect.project_name}" />
                 <h3>${proyect.project_name}</h3>
@@ -38,6 +42,6 @@ function printMisiones(information) {
                     <a href="${proyect.website}" target="_blank">Detalles</a>
                 </div>
             </div>`;
-        cardContainer.appendChild(proyectsContainer);
-    });
+    cardContainer.appendChild(proyectsContainer);
+  });
 }

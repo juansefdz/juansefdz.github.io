@@ -1,7 +1,7 @@
 .card {
   position: relative;
-  width: 250px;
-  min-height: 350px;
+  width: 200px;
+  min-height: 300px;
   background-color: transparent !important;
   border: none;
   margin: 20px;
@@ -19,7 +19,7 @@
 
 .card .front {
   transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0 5px 10px #300054;
+  box-shadow: 0 5px 10px #f8f8f82e;
 }
 
 .card .front img {
@@ -53,7 +53,7 @@
 }
 
 .card .back .link {
-  border-top: solid 1px #770082;
+  border-top: solid 1px #787878;
   height: 20px;
   line-height: 20px;
   text-decoration: none;
@@ -64,14 +64,14 @@
 }
 
 .card .back h3 {
-  font-size: 25px;
+  font-size: 15px;
   margin-top: 20px;
   letter-spacing: 2px;
 }
 
 .card .back p {
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .card:hover .front {

@@ -1,0 +1,102 @@
+/*RESPONSIVE */
+
+@media (max-width: 768px) {
+  .menu-container {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 200;
+  }
+
+  /*MAIN SECTION*/
+  .pic {
+    display: none;
+    margin: 5px;
+  }
+
+  .home-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*ABOUT ME*/
+
+  .presentation-container {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .personal-presentation {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .personal-presentation h1 {
+    text-align: justify;
+  }
+
+  .skills-presentation {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tech-skills-info {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .tech-skills-container h1 {
+    font-size: 40px;
+  }
+
+  .soft-skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 20px;
+  }
+  .soft-skills-container h1 {
+    font-size: 20px;
+  }
+
+  .soft-skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .lenguage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .lenguage img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .buttons-section {
+    display: none;
+  }
+}
