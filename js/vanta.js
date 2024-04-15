@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
     gyroControls: false,
   
     highlightColor: 0x0,
-    midtoneColor: 0x5704cf,
-    lowlightColor: 0x5040f,
-    baseColor: 0x50325,
+  midtoneColor: 0xa1a1a1,
+  lowlightColor: 0x757575,
+  baseColor: 0xffffff,
     blurFactor: 1.4,
     speed: 0.5,
     zoom: 1,
