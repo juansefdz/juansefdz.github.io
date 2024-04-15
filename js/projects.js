@@ -3,9 +3,6 @@ const cardContainer = document.querySelector(".projects-container");
 document.addEventListener("DOMContentLoaded", () => {
   searchProjects();
 
-  document.addEventListener("scroll", () => {
-    searchProjects();
-  });
 });
 
 async function searchProjects() {
