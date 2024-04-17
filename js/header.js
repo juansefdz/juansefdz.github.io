@@ -1,47 +1,28 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const sections = document.querySelectorAll("section");
-    const headerLinks = document.querySelectorAll(".header-info a");
-  
-    // Agrega transición entre páginas
-    sections.forEach((section) => {
-      section.style.opacity = "0";
-    });
-  
-    function navigateToSection(sectionId) {
-      sections.forEach((section) => {
-        if (section.id === sectionId) {
-          section.style.opacity = "1";
-        } else {
-          section.style.opacity = "0";
-        }
-      });
+document.addEventListener('DOMContentLoaded', function() {
+  const menuLinks = document.querySelectorAll('.header-info a');
+  let lastClickedLink = null;
+
+  // Función para agregar la clase "glitch" al enlace actual y quitarla del anterior
+  function toggleGlitchClass(currentLink) {
+    if (lastClickedLink) {
+      lastClickedLink.classList.remove('glitch');
     }
-  
-    headerLinks.forEach((link) => {
-      link.addEventListener("click", (event) => {
-        event.preventDefault();
-        const sectionId = event.target.getAttribute("href").substring(1);
-        navigateToSection(sectionId);
-      });
-    });
-  
-    // Resalta la ubicación actual en el encabezado
-    window.addEventListener("scroll", () => {
-      let current = "";
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (pageYOffset >= sectionTop - sectionHeight / 3) {
-          current = section.getAttribute("id");
-        }
-      });
-  
-      headerLinks.forEach((link) => {
-        link.classList.remove("active");
-        if (link.getAttribute("href").substring(1) === current) {
-          link.classList.add("active");
-        }
-      });
+    currentLink.classList.add('glitch');
+    lastClickedLink = currentLink;
+  }
+
+  // Establecer el primer enlace como activo al principio
+  const defaultLink = menuLinks[0];
+  toggleGlitchClass(defaultLink);
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      // Verificar si el enlace actual ya tiene la clase "glitch"
+      if (!link.classList.contains('glitch')) {
+        toggleGlitchClass(link);
+      }
     });
   });
-  
+});

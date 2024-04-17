@@ -14,17 +14,28 @@
 
     z-index: 200;
   }
-
+  
+ .header{
+  visibility: hidden;
+ }
   /*MAIN SECTION*/
   .pic {
-    display: none;
-    margin: 5px;
+    display: flex;
+    
   }
-
+.home{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
   .home-content {
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    
+  }
+  .pic img {
+    width: 500px;
+    height: 500px;
+    
   }
 
   /*ABOUT ME*/
@@ -37,7 +48,6 @@
   }
   .personal-presentation {
     width: 100%;
-    gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,43 +58,26 @@
 
   .skills-presentation {
     width: 100%;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .tech-skills-info {
     display: flex;
-
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 20px; /* Ajusta el margen inferior */
   }
-
   .tech-skills-container h1 {
     font-size: 40px;
   }
 
   .soft-skills-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    gap: 20px;
+    display: none;
+    
   }
-  .soft-skills-container h1 {
-    font-size: 20px;
-  }
-
-  .soft-skills {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-  }
+  
   .lenguage {
     display: flex;
     flex-direction: column;
@@ -92,11 +85,41 @@
     align-items: center;
   }
   .lenguage img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
   .buttons-section {
     display: none;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 100px;
+    align-items: center;
+    
+
+  }
+  .card {
+    position: relative;
+    width: 350px;
+    min-height: 300px;
+    background-color: transparent !important;
+    border: none;
+    margin: 20px;
+  }
+
+  .card-backend {
+    display: flex;
+    position: relative;
+    width: 350px;
+    min-height: 300px;
+    background-color: transparent !important;
+    border: none;
+    margin: 20px;
+    gap: 5px;
   }
 }

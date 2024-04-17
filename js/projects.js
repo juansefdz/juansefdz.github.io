@@ -1,43 +1,41 @@
-const cardContainer = document.querySelector(".projects-container");
-
 document.addEventListener("DOMContentLoaded", () => {
-  searchProjects();
+  projects();
 });
 
-async function searchProjects() {
+async function projects() {
   const URL = "./json/projects.json";
   try {
     const answer = await fetch(URL);
     const information = await answer.json();
+    console.log("Project data fetched successfully:", information);
     printProjects(information);
   } catch (error) {
-    console.error("Error al obtener los datos de los proyectos:", error);
+    console.error("Error fetching project data:", error);
   }
-}
-
-function printProjects(information) {
-  if (!information || information.length === 0) {
-    const alert = document.createElement("h2");
-    alert.textContent = "No se encontraron proyectos para mostrar";
-    alert.classList.add("alert");
-    cardContainer.appendChild(alert);
-    return;
+  
+  function printProjects(information) {
+    const cardContainer = document.querySelector(".projects-container");
+    if (!cardContainer || !information || information.length === 0) {
+      console.warn("No projects container found or empty project data");
+      return;
+    }
+    console.log("Printing projects...");
+    information.forEach((project) => {
+      const projectContainer = document.createElement("div");
+      projectContainer.classList.add("card");
+      projectContainer.innerHTML = `
+        <div class="face front">
+          <img src="${project.imagen}" alt="${project.project_name}" />
+          <h3>${project.project_name}</h3>
+        </div>
+        <div class="face back">
+          <h3>${project.project_name}</h3>
+          <p>${project.info}</p>
+          <div class="link">
+            <a href="${project.website}" target="_blank">Detalles</a>
+          </div>
+        </div>`;
+      cardContainer.appendChild(projectContainer);
+    });
   }
-  information.forEach((proyect) => {
-    const proyectsContainer = document.createElement("div");
-    proyectsContainer.classList.add("card");
-    proyectsContainer.innerHTML = `
-            <div class="face front">
-                <img src="${proyect.imagen}" alt="${proyect.project_name}" />
-                <h3>${proyect.project_name}</h3>
-            </div>
-            <div class="face back">
-                <h3>${proyect.project_name}</h3>
-                <p>${proyect.info}</p>
-                <div class="link">
-                    <a href="${proyect.website}" target="_blank">Detalles</a>
-                </div>
-            </div>`;
-    cardContainer.appendChild(proyectsContainer);
-  });
 }

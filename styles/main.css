@@ -32,7 +32,7 @@
 /*GLITCH FONT*/
 
 .glitch {
-  font-size: 8rem;
+  font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
   font-weight: 700;
   text-transform: uppercase;
   position: relative;

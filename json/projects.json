@@ -82,12 +82,6 @@
       "website": "https://github.com/juansefdz",
       "info": "At https://github.com/juansefdz you can find different repositories with workshops or practical exercises where I have practiced knowledge in HTML, CSS, Python, Java, JavaScript, database management, among others.",
       "imagen":"./Displays/img/projectsImg/git.png"
-    },
-    {
-      "project_name": "JAVA",
-      "website": "https://github.com/juansefdz",
-      "info": "backend projects realizated in JAVA vanilla and using the framework SpringBoot",
-      "imagen":"./Displays/img/JavaBackend.png"
     }
   ]
   
