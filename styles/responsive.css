@@ -1,6 +1,6 @@
 /*RESPONSIVE */
 
-@media (max-width: 768px) {
+@media (max-width: 340px) {
   .menu-container {
     display: block;
     position: fixed;
