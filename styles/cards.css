@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  width: 200px;
+  width: 350px;
   min-height: 300px;
   background-color: transparent !important;
   border: none;
@@ -96,15 +96,15 @@
   height: auto;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .card-backend {
   display: flex;
   position: relative;
-  width: 700px;
-  min-height: 500px;
+  width: 350px;
+  min-height: 300px;
   background-color: transparent !important;
   border: none;
   margin: 20px;
