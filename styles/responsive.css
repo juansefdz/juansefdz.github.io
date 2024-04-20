@@ -31,6 +31,10 @@
   }
   .home-content {
     text-align: center;
+    
+  }
+  .cv-container{
+    gap: 5px;
   }
   .pic img {
     width: 500px;
@@ -165,8 +169,5 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.95);
     transition: all 0.3s ease;
   }
-
-  
- 
 }
   

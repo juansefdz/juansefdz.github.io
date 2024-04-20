@@ -15,7 +15,27 @@
   text-align: left;
   display: flex;
   flex-direction: column;
+  
 }
+
+
+.cv-container{
+  margin: 20px;
+}
+.cv-container button{
+  background-color: #746f6f;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Share Tech Mono", monospace;
+  padding: 5px;
+  border-radius: 5px;
+}
+.cv-container button:hover{
+  transform: scale(1.1);
+}
+
 .home-content h3 {
   font-weight: 100;
 }
@@ -89,7 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(0px 0px 200px  #9d9d9d);
+  
 }
 
 .pic img {
