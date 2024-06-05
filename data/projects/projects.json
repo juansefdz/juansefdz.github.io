@@ -1,0 +1,129 @@
+{
+  "Frontend": [
+    {
+      "name": "AdvInterview",
+      "url": "https://advinterview.vercel.app/",
+      "description": "This project arises from the need to provide programming students who are about to enter the workforce with the minimum foundations to prepare for a job interview in technical skills, logical skills, and life skills. Collaborative project.",
+      "imageUrl": "./Displays/img/projectsImg/advinterview.png"
+    },
+    {
+      "name": "SAMI V1",
+      "url": "",
+      "description": "First version of SAMI, unfinished version",
+      "imageUrl": "./Displays/img/projectsImg/sami.png"
+    },
+    {
+      "name": "Christmas Counter",
+      "url": "https://juansefdz.com/Contador-navidad/",
+      "description": "Christmas countdown project!",
+      "imageUrl": "./Displays/img/projectsImg/christmas.png"
+    },
+    {
+      "name": "Sports Cars - Filter Management",
+      "url": "https://juansefdz.com/filtro-carros/",
+      "description": "Project carried out in order to handle filters according to user needs.",
+      "imageUrl": "./Displays/img/projectsImg/cars.png"
+    },
+    {
+      "name": "Hogwarts",
+      "url": "https://juansefdz.com/Hogwarts/",
+      "description": "Use of JavaScript with a project based on Hogwarts School of Witchcraft and Wizardry.",
+      "imageUrl": "./Displays/img/projectsImg/hogwarts.png"
+    },
+    {
+      "name": "Riwi Ecological",
+      "url": "https://juansefdz.com/riwi-ecolgico/",
+      "description": "Garbage management system with capacity indicator and ecological level.",
+      "imageUrl": "./Displays/img/projectsImg/riwieco.png"
+    },
+    {
+      "name": "Veterinary Appointment Management System",
+      "url": "https://juansefdz.com/veterinary-system/",
+      "description": "Veterinary appointment management system.",
+      "imageUrl": "./Displays/img/projectsImg/vetsys.png"
+    },
+    {
+      "name": "Movie Search System",
+      "url": "https://juansefdz.com/buscador-peliculas/",
+      "description": "Page for handling and consuming the API https://www.omdbapi.com/",
+      "imageUrl": "./Displays/img/projectsImg/movies.png"
+    },
+    {
+      "name": "Image Search System",
+      "url": "https://juansefdz.com/buscador-imagenes-pixabay-/",
+      "description": "Page for handling and consuming the API https://pixabay.com/",
+      "imageUrl": "./Displays/img/projectsImg/images.png"
+    },
+    {
+      "name": "SpaceX",
+      "url": "https://juansefdz.com/spaceX/",
+      "description": "Consumption of the SpaceX API - shows all missions with their respective name, mission logo, rocket type, and launch video.",
+      "imageUrl": "./Displays/img/projectsImg/spacex.png"
+    },
+    {
+      "name": "RiwiJobs",
+      "url": "https://juansefdz.com/riwi-jobs/",
+      "description": "Development of a web application called 'Riwi Jobs' using JSON Server as a fake backend and Vanilla JavaScript for the frontend. The application has four main views: a public one to list job positions, one for login, one for company registration, and another for vacancy management per company.",
+      "imageUrl": "./Displays/img/projectsImg/riwijobs.png"
+    },
+    {
+      "name": "ColombiaTravel",
+      "url": "https://juansefdz.com/colombia-travel",
+      "description": "Tourism agency template handling CSS and HTML.",
+      "imageUrl": "./Displays/img/projectsImg/colombiaTravel.png"
+    },
+    {
+      "name": "PizzaPizza",
+      "url": "https://juansefdz.com/PizzaPizza/",
+      "description": "Pizzeria template creation.",
+      "imageUrl": "./Displays/img/projectsImg/pizza.png"
+    },
+    {
+      "name": "OTHERS",
+      "url": "https://github.com/juansefdz",
+      "description": "At https://github.com/juansefdz you can find different repositories with workshops or practical exercises where I have practiced knowledge in HTML, CSS, Python, Java, JavaScript, database management, among others.",
+      "imageUrl": "./Displays/img/projectsImg/git.png"
+    },
+    {
+      "name": "Coming soon!",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitaemollitia corrupti, ea optio, deleniti sed dolorum adipisciquaerat, fugiat corporis libero non ex labore autem. Animi atque ut ullam laudantium mollitia repudiandae asperiores eum.",
+      "url": "https://digitalnomadshotels.netlify.app/",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+    }
+  ],
+  "Backend": [
+    {
+      "name": "Coders Manager",
+      "url": "https://github.com/juansefdz/SPRINGBOOT/tree/main/ejerciciosClase/02_primeraWeb",
+      "description": "Management of coders using Spring Boot where you can add or remove a coder or search by their name in a database.",
+      "imageUrl": "./Displays/img/projectsImg/backend/coders.png"
+    },
+    {
+      "name": "Coming soon!",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitaemollitia corrupti, ea optio, deleniti sed dolorum adipisciquaerat, fugiat corporis libero non ex labore autem. Animi atque ut ullam laudantium mollitia repudiandae asperiores eum.",
+      "url": "https://digitalnomadshotels.netlify.app/",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+    },
+    {
+      "name": "Coming soon!",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitaemollitia corrupti, ea optio, deleniti sed dolorum adipisciquaerat, fugiat corporis libero non ex labore autem. Animi atque ut ullam laudantium mollitia repudiandae asperiores eum.",
+      "url": "https://digitalnomadshotels.netlify.app/",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+    }
+  ],
+  "Fullstack": [
+    
+    {
+      "name": "SAMI",
+      "url": "",
+      "description": "SAMI version 2. where SpringBoot, SpringSecurity, MySql are implemented.",
+      "imageUrl": "./Displays/img/projectsImg/sami2.png"
+    },
+    {
+      "name": "Coming soon!",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitaemollitia corrupti, ea optio, deleniti sed dolorum adipisciquaerat, fugiat corporis libero non ex labore autem. Animi atque ut ullam laudantium mollitia repudiandae asperiores eum.",
+      "url": "https://digitalnomadshotels.netlify.app/",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+    }
+  ]
+}

@@ -29,7 +29,7 @@
   font-size: 20px;
   cursor: pointer;
   font-family: "Share Tech Mono", monospace;
-  padding: 5px;
+  padding: 0px;
   border-radius: 5px;
 }
 .cv-container button:hover{
@@ -57,7 +57,7 @@
   text-transform: uppercase;
   position: relative;
   text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    -0.025em -0.05em 0 #00ff00bf,
     0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
   transition: transform 0.2s;
   animation: glitch 2000ms infinite;
@@ -109,6 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(1px 1px 250px #ffffff);
   
 }
 
@@ -117,8 +118,9 @@
   max-height: 100%;
   mask-image: linear-gradient(
     to bottom,
-    rgb(255, 255, 255) 75%,
+    rgb(255, 255, 255) 70%,
     rgba(255, 255, 255, 0)
   );
+ 
   
 }

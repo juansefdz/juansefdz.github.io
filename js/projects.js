@@ -1,41 +1,86 @@
+const btnBackend = document.querySelector(".btnBackend");
+const btnFrontend = document.querySelector(".btnFrontend");
+const btnFullStack = document.querySelector(".btnFullStack");
+const cardsContainer = document.querySelector(".page-content");
+
 document.addEventListener("DOMContentLoaded", () => {
-  projects();
+  getData("Frontend");
 });
 
-async function projects() {
-  const URL = "./json/projects.json";
-  try {
-    const answer = await fetch(URL);
-    const information = await answer.json();
-    console.log("Project data fetched successfully:", information);
-    printProjects(information);
-  } catch (error) {
-    console.error("Error fetching project data:", error);
+btnBackend.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!btnBackend.classList.contains("btnOn")) {
+    clean();
+    btnFrontend.classList.remove("btnOn");
+    btnFullStack.classList.remove("btnOn");
+    btnBackend.classList.toggle("btnOn");
+    getData("Backend");
   }
-  
-  function printProjects(information) {
-    const cardContainer = document.querySelector(".projects-container");
-    if (!cardContainer || !information || information.length === 0) {
-      console.warn("No projects container found or empty project data");
-      return;
+});
+
+btnFrontend.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!btnFrontend.classList.contains("btnOn")) {
+    clean();
+    btnBackend.classList.remove("btnOn");
+    btnFullStack.classList.remove("btnOn");
+    btnFrontend.classList.toggle("btnOn");
+    getData("Frontend");
+  }
+});
+
+btnFullStack.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!btnFullStack.classList.contains("btnOn")) {
+    clean();
+    btnFrontend.classList.remove("btnOn");
+    btnBackend.classList.remove("btnOn");
+    btnFullStack.classList.toggle("btnOn");
+    getData("Fullstack");
+  }
+});
+
+function clean() {
+  Array.from(cardsContainer.children).forEach((child) => {
+    if (!child.classList.contains("shadow")) {
+      cardsContainer.removeChild(child);
     }
-    console.log("Printing projects...");
-    information.forEach((project) => {
-      const projectContainer = document.createElement("div");
-      projectContainer.classList.add("card");
-      projectContainer.innerHTML = `
-        <div class="face front">
-          <img src="${project.imagen}" alt="${project.project_name}" />
-          <h3>${project.project_name}</h3>
+  });
+}
+
+async function getData(category) {
+  const url = "../../data/projects/projects.json";
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    cardsContainer.innerHTML = ''; // Clear existing content before adding new content
+
+    data[category].forEach((card) => {
+      cardsContainer.innerHTML += `
+      <div
+        class="card"
+        style="
+          background-image: url('${card.imageUrl}');
+          background-size: cover;
+        "
+      >
+        <div class="content">
+          <h2 class="title">${card.name}</h2>
+          <p class="copy">
+            ${card.description}
+          </p>
+          <a
+            href="${card.url}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            >View Page</a>
         </div>
-        <div class="face back">
-          <h3>${project.project_name}</h3>
-          <p>${project.info}</p>
-          <div class="link">
-            <a href="${project.website}" target="_blank">Detalles</a>
-          </div>
-        </div>`;
-      cardContainer.appendChild(projectContainer);
+      </div>
+      `;
     });
+  } catch (error) {
+    console.error(error);
   }
 }
