@@ -70,6 +70,7 @@
   border-radius: 5px;
   border-color:var(--blueTransparent);
   background: var(--blueTransparent);
+  cursor: pointer;
 }
 
 .btnFrontend:hover,
