@@ -1,8 +1,0 @@
-[{
-    "project_name": "coders manager",
-    "website": "https://github.com/juansefdz/SPRINGBOOT/tree/main/ejerciciosClase/02_primeraWeb",
-    "info": " Management of coder management using Spring Boot where you can add or remove a coder or search by their name in a database.",
-    "imagen":"./Displays/img/projectsImg/advinterview.png"
-  }
-
-]

@@ -54,9 +54,12 @@ async function getData(category) {
     const response = await fetch(url);
     const data = await response.json();
 
-    cardsContainer.innerHTML = ''; // Clear existing content before adding new content
+    cardsContainer.innerHTML = '';
 
     data[category].forEach((card) => {
+      const cardUrl = card.url.trim();
+      const buttonHTML = cardUrl !== "" ? `<a href="${cardUrl}" target="_blank" rel="noopener noreferrer" class="btn">View Page</a>` : '';
+
       cardsContainer.innerHTML += `
       <div
         class="card"
@@ -70,12 +73,7 @@ async function getData(category) {
           <p class="copy">
             ${card.description}
           </p>
-          <a
-            href="${card.url}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn"
-            >View Page</a>
+          ${buttonHTML}
         </div>
       </div>
       `;

@@ -1,0 +1,35 @@
+{
+    "MAIN": "PRINCIPAL",
+    "ABOUT_ME": "SOBRE MÍ",
+    "ABOUT_INFO": "Soy Juan Sebastián Fernández Montoya, un apasionado Desarrollador de Software con experiencia sólida en Python y Java, MySQL. Además, tengo habilidades en desarrollo frontend utilizando HTML, CSS y JavaScript. Mi enfoque integral me ha permitido liderar proyectos desde la concepción hasta la implementación, destacándome por crear soluciones innovadoras que impulsan el éxito del equipo. Estoy comprometido con la excelencia técnica y la entrega de productos de alta calidad que superan las expectativas del cliente. Estoy emocionado de seguir creciendo profesionalmente y asumiendo nuevos desafíos en el mundo del desarrollo de software.",
+    "PROJECTS": "PROYECTOS",
+    "LEVEL": "medio",
+    "SERVICES": "SERVICIOS",
+    "CONTACT_ME": "CONTÁCTAME",
+    "SOFT_DEV": "DESARROLLADOR DE SOFTWARE",
+    "DONW_CV": "Descargar CV",
+    "T_SKILLS": "HABILIDADES TÉCNICAS",
+    "S_SKILL": "HABILIDADES BLANDAS",
+    "TEAMWORK": "Trabajo en equipo",
+    "P_SOLVING": "Resolución de problemas",
+    "S_MOTIVATION": "Automotivación",
+    "DECISIVENESS": "Determinación",
+    "PROJECT_SEC_INFO": "¡Bienvenido a la sección de Proyectos! Aquí puedes explorar una variedad de proyectos que he completado. Usa los filtros de Frontend y Backend para encontrar proyectos específicos que te interesen. Sumérgete en mi portafolio y descubre cómo enfrento diferentes desafíos en el desarrollo web.",
+    "PROJECT_SECINFO_MOBILE": "¡Bienvenido a la sección de Proyectos! Aquí puedes explorar una variedad de proyectos que he completado. Usa los filtros de Frontend y Backend para encontrar proyectos específicos que te interesen.",
+    "CUS_WEB": "Desarrollo de Aplicaciones Web Personalizadas",
+    "SERVICE_WEB_APPS": "Transformo sus ideas en potentes aplicaciones web, adaptadas a sus necesidades específicas y optimizadas para un rendimiento excepcional.",
+    "SERVICES_TITLE": "SERVICIOS",
+    "SERVICES_DESCRIPTION": "Me especializo en proporcionar servicios profesionales de alta calidad para satisfacer las necesidades de tu negocio. Estoy comprometido a ofrecer soluciones innovadoras y personalizadas en las siguientes áreas:",
+    "APIs": "Integración de API y Sistemas",
+    "SERVICE_API": "Conecto sus sistemas y plataformas a través de integraciones de API perfectas, asegurando una comunicación eficiente y segura entre sus aplicaciones.",
+    "PERFOMANCE": "Optimización de Rendimiento y Escalabilidad",
+    "SERVICE_SCALABILITY": "Mejoro la velocidad y escalabilidad de sus aplicaciones existentes, asegurando una experiencia fluida para sus usuarios incluso durante períodos de alta demanda.",
+    "SECURITY": "Seguridad y Protección de Datos",
+    "SERVICE_SECURITY": "Implemento medidas de seguridad sólidas para proteger sus datos confidenciales y garantizar el cumplimiento de las regulaciones, brindándole tranquilidad y confianza en su plataforma.",
+    "Contact Me!": "¡Contáctame!",
+    "Email": "Correo Electrónico",
+    "© 2024 JuanseFDZ. All rights reserved.": "© 2024 JuanseFDZ. Todos los derechos reservados."
+}
+
+
+  
