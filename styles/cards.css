@@ -89,7 +89,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
   width: 100%;
   transition: 0.8s;
@@ -197,6 +197,13 @@
 .card:focus-within .content > *:not(.title) {
   transition-duration: 0s;
 }
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px; 
+  filter: drop-shadow(0px 0px 4px #ffffff);
+}
+
 
 /* MOBILE */
 @media (max-width: 768px) {

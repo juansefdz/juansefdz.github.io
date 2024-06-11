@@ -1,94 +1,116 @@
 {
   "Frontend": [
     {
+      "name": "Hierbabuena",
+      "url": "https://juansefdz.com/hierbabuena//",
+      "description": "proyecto página web para HierbaBuena",
+      "imageUrl": "./Displays/img/projectsImg/hierbabuena.jpg",
+      "languages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
       "name": "AdvInterview",
       "url": "https://advinterview.vercel.app/",
       "description": "This project arises from the need to provide programming students who are about to enter the workforce with the minimum foundations to prepare for a job interview in technical skills, logical skills, and life skills. Collaborative project.",
-      "imageUrl": "./Displays/img/projectsImg/advinterview.png"
+      "imageUrl": "./Displays/img/projectsImg/advinterview.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "SAMI V1",
       "url": "",
       "description": "First version of SAMI, unfinished version",
-      "imageUrl": "./Displays/img/projectsImg/sami.png"
+      "imageUrl": "./Displays/img/projectsImg/sami.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Christmas Counter",
       "url": "https://juansefdz.com/Contador-navidad/",
       "description": "Christmas countdown project!",
-      "imageUrl": "./Displays/img/projectsImg/christmas.png"
+      "imageUrl": "./Displays/img/projectsImg/christmas.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Sports Cars - Filter Management",
       "url": "https://juansefdz.com/filtro-carros/",
       "description": "Project carried out in order to handle filters according to user needs.",
-      "imageUrl": "./Displays/img/projectsImg/cars.png"
+      "imageUrl": "./Displays/img/projectsImg/cars.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Hogwarts",
       "url": "https://juansefdz.com/Hogwarts/",
       "description": "Use of JavaScript with a project based on Hogwarts School of Witchcraft and Wizardry.",
-      "imageUrl": "./Displays/img/projectsImg/hogwarts.png"
+      "imageUrl": "./Displays/img/projectsImg/hogwarts.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Riwi Ecological",
       "url": "https://juansefdz.com/riwi-ecolgico/",
       "description": "Garbage management system with capacity indicator and ecological level.",
-      "imageUrl": "./Displays/img/projectsImg/riwieco.png"
+      "imageUrl": "./Displays/img/projectsImg/riwieco.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Veterinary Appointment Management System",
       "url": "https://juansefdz.com/veterinary-system/",
       "description": "Veterinary appointment management system.",
-      "imageUrl": "./Displays/img/projectsImg/vetsys.png"
+      "imageUrl": "./Displays/img/projectsImg/vetsys.png",
+      "languages": ["HTML", "CSS","bootstrap", "JavaScript"]
     },
     {
       "name": "Movie Search System",
       "url": "https://juansefdz.com/buscador-peliculas/",
       "description": "Page for handling and consuming the API https://www.omdbapi.com/",
-      "imageUrl": "./Displays/img/projectsImg/movies.png"
+      "imageUrl": "./Displays/img/projectsImg/movies.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Image Search System",
       "url": "https://juansefdz.com/buscador-imagenes-pixabay-/",
       "description": "Page for handling and consuming the API https://pixabay.com/",
-      "imageUrl": "./Displays/img/projectsImg/images.png"
+      "imageUrl": "./Displays/img/projectsImg/images.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "SpaceX",
       "url": "https://juansefdz.com/spaceX/",
       "description": "Consumption of the SpaceX API - shows all missions with their respective name, mission logo, rocket type, and launch video.",
-      "imageUrl": "./Displays/img/projectsImg/spacex.png"
+      "imageUrl": "./Displays/img/projectsImg/spacex.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "RiwiJobs",
       "url": "https://juansefdz.com/riwi-jobs/",
       "description": "Development of a web application called 'Riwi Jobs' using JSON Server as a fake backend and Vanilla JavaScript for the frontend. The application has four main views: a public one to list job positions, one for login, one for company registration, and another for vacancy management per company.",
-      "imageUrl": "./Displays/img/projectsImg/riwijobs.png"
+      "imageUrl": "./Displays/img/projectsImg/riwijobs.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "ColombiaTravel",
       "url": "https://juansefdz.com/colombia-travel",
       "description": "Tourism agency template handling CSS and HTML.",
-      "imageUrl": "./Displays/img/projectsImg/colombiaTravel.png"
+      "imageUrl": "./Displays/img/projectsImg/colombiaTravel.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "PizzaPizza",
       "url": "https://juansefdz.com/PizzaPizza/",
       "description": "Pizzeria template creation.",
-      "imageUrl": "./Displays/img/projectsImg/pizza.png"
+      "imageUrl": "./Displays/img/projectsImg/pizza.png",
+      "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
       "name": "OTHERS",
       "url": "https://github.com/juansefdz",
       "description": "At https://github.com/juansefdz you can find different repositories with workshops or practical exercises where I have practiced knowledge in HTML, CSS, Python, Java, JavaScript, database management, among others.",
-      "imageUrl": "./Displays/img/projectsImg/git.png"
+      "imageUrl": "./Displays/img/projectsImg/git.png",
+      "languages": ["HTML", "CSS", "JavaScript","bootstrap", "Python", "Java","Spring Boot","MySQL"]
     },
     {
       "name": "Coming soon!",
       "description": "Get ready for what's coming! New innovative projects are on the way, designed to amaze you and take your experience to the next level. Stay tuned!",
       "url": " ",
-      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg",
+      "languages": ["TBD"]
     }
   ],
   "Backend": [
@@ -96,46 +118,52 @@
       "name": "Coders Manager",
       "url": "https://github.com/juansefdz/SPRINGBOOT/tree/main/ejerciciosClase/02_primeraWeb",
       "description": "Management of coders using Spring Boot where you can add or remove a coder or search by their name in a database.",
-      "imageUrl": "./Displays/img/projectsImg/backend/coders.png"
+      "imageUrl": "./Displays/img/projectsImg/backend/coders.png",
+      "languages": ["Java", "Spring Boot", "MySQL"]
     },
     {
       "name": "Learning platform API -SpringBoot-",
-      "description": "online learning platform to facilitate access to courses and educational materials.",
+      "description": "Online learning platform to facilitate access to courses and educational materials.",
       "url": "https://github.com/juansefdz/Learning_platformAPI_Springboot",
-      "imageUrl": "./Displays/img/projectsImg/backend/projectsback.jpg"
+      "imageUrl": "./Displays/img/projectsImg/backend/projectsback.jpg",
+      "languages": ["Java", "Spring Boot", "MySQL"]
     },
     {
       "name": "ResponseSurveyAPI_Platform - SpringBoot-",
-      "description": "Integrated Survey and Response Management System",
+      "description": "Integrated Survey and Response Management System.",
       "url": "https://github.com/juansefdz/ResponseSurveyAPI_Platform_Springboot",
-      "imageUrl": "./Displays/img/projectsImg/backend/projectsback.jpg"
+      "imageUrl": "./Displays/img/projectsImg/backend/projectsback.jpg",
+      "languages": ["Java", "Spring Boot", "MySQL"]
     },
     {
       "name": "Coming soon!",
       "description": "Get ready for what's coming! New innovative projects are on the way, designed to amaze you and take your experience to the next level. Stay tuned!",
       "url": " ",
-      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg",
+      "languages": ["TBD"]
     },
     {
       "name": "Coming soon!",
       "description": "Get ready for what's coming! New innovative projects are on the way, designed to amaze you and take your experience to the next level. Stay tuned!",
       "url": " ",
-      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg",
+      "languages": ["TBD"]
     }
   ],
   "Fullstack": [
-    
     {
       "name": "SAMI",
       "url": " ",
       "description": "SAMI version 2. where SpringBoot, SpringSecurity, MySql are implemented.",
-      "imageUrl": "./Displays/img/projectsImg/sami2.png"
+      "imageUrl": "./Displays/img/projectsImg/sami2.png",
+      "languages": ["Java", "Spring Boot", "Spring Security", "MySQL", "HTML", "CSS", "JavaScript"]
     },
     {
       "name": "Coming soon!",
       "description": "Get ready for what's coming! New innovative projects are on the way, designed to amaze you and take your experience to the next level. Stay tuned!",
       "url": " ",
-      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg"
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/48/39/74/360_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg",
+      "languages": ["TBD"]
     }
   ]
 }
