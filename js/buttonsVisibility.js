@@ -8,13 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Add button elements to the buttons container
   buttonsContainer.innerHTML = `
-    <a href="" class="whatsapp-btn" target="_blank">
-      <i class="bx bxl-whatsapp"></i>
-    </a>
-    <a href="" class="gmail-btn" target="_blank">
+    
+    <a  class="gmail-btn">
       <i class="bx bxl-gmail"></i>
     </a>
-    <a href="" class="linkedin-btn" target="_blank">
+    <a href="https://www.linkedin.com/in/juansefdz/" class="linkedin-btn" target="_blank">
       <i class="bx bxl-linkedin"></i>
     </a>
     <a href="https://github.com/juansefdz" class="github-btn" target="_blank">

@@ -12,8 +12,8 @@ body {
   overflow-x: hidden;
   background-color: #000000;
   opacity: 1;
-  background-image: linear-gradient(45deg, #101010 50%, #000000 50%);
-  background-size: 5px 5px;
+  background-image: linear-gradient(45deg, #070707 50%, #000000 50%);
+  background-size: 10px 10px;
 }
 
 /* Estilos del encabezado */
@@ -28,7 +28,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.149);
 }
 
 .menu-container {

@@ -106,16 +106,17 @@
 }
 
 .pic {
+  width: 50%;
+  height: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  filter: drop-shadow(1px 1px 250px #ffffff);
+  justify-content: right;
+  filter: drop-shadow(1px 1px 100px #b0adad);
   
 }
 
 .pic img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 70%;
+  height: 80%;
   mask-image: linear-gradient(
     to bottom,
     rgb(255, 255, 255) 70%,
@@ -123,4 +124,28 @@
   );
  
   
+}
+
+.cv-btn {
+  padding: 50px 50px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #06e03d, #1b1b1b);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.cv-btn:hover {
+  background: linear-gradient(45deg, #06e077, #2f2f2f);
+  transform: translateY(-2px);
+}
+
+.cv-btn:active {
+  background: linear-gradient(45deg, #06e077, #2f2f2f);
+  transform: translateY(1px);
 }

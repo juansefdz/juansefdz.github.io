@@ -1,10 +1,10 @@
 /* Adjustments for button positioning */
-.whatsapp-btn,
+
 .linkedin-btn,
 .gmail-btn,
 .github-btn {
   display: inline-block;
-  margin-bottom: 10px; /* Adjust margin as needed */
+  margin-bottom: 15px; 
   border-radius: 50%;
   padding: 5px;
   background: rgb(255, 255, 255);
@@ -23,7 +23,7 @@
 .linkedin-btn i,
 .gmail-btn i,
 .github-btn i {
-  font-size: 50px;
+  font-size: 40px;
   color: #25d366; /* WhatsApp button color */
 }
 
@@ -41,16 +41,8 @@
 
 /* Style for the buttons container */
 .buttons-section {
-  width: 5%;
-  
-  padding: 20px; 
+
   display: flex;
-  align-items: last baseline;
-  justify-content:center;
-}
-.buttons{
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+  flex-direction: row;
   
 }
