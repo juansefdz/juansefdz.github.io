@@ -3,46 +3,41 @@ const btnFrontend = document.querySelector(".btnFrontend");
 const btnFullStack = document.querySelector(".btnFullStack");
 const cardsContainer = document.querySelector(".page-content");
 
-document.addEventListener("DOMContentLoaded", async () => {
-  const languagesData = await fetchLanguagesData();
-  getData("Frontend", languagesData);
+document.addEventListener("DOMContentLoaded", () => {
+  InyectNavBar(navBar);
+  getData("Frontend");
 });
 
-btnBackend.addEventListener("click", async (event) => {
+btnBackend.addEventListener("click", (event) => {
   event.preventDefault();
   if (!btnBackend.classList.contains("btnOn")) {
-    clean();
     btnFrontend.classList.remove("btnOn");
     btnFullStack.classList.remove("btnOn");
     btnBackend.classList.toggle("btnOn");
-    const languagesData = await fetchLanguagesData();
-    getData("Backend", languagesData);
+    getData("Backend");
   }
 });
 
-btnFrontend.addEventListener("click", async (event) => {
+btnFrontend.addEventListener("click", (event) => {
   event.preventDefault();
   if (!btnFrontend.classList.contains("btnOn")) {
-    clean();
     btnBackend.classList.remove("btnOn");
     btnFullStack.classList.remove("btnOn");
     btnFrontend.classList.toggle("btnOn");
-    const languagesData = await fetchLanguagesData();
-    getData("Frontend", languagesData);
+    getData("Frontend");
   }
 });
 
-btnFullStack.addEventListener("click", async (event) => {
+btnFullStack.addEventListener("click", (event) => {
   event.preventDefault();
   if (!btnFullStack.classList.contains("btnOn")) {
-    clean();
     btnFrontend.classList.remove("btnOn");
     btnBackend.classList.remove("btnOn");
     btnFullStack.classList.toggle("btnOn");
-    const languagesData = await fetchLanguagesData();
-    getData("Fullstack", languagesData);
+    getData("Fullstack");
   }
 });
+
 
 function clean() {
   Array.from(cardsContainer.children).forEach((child) => {
