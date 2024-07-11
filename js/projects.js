@@ -3,41 +3,43 @@ const btnFrontend = document.querySelector(".btnFrontend");
 const btnFullStack = document.querySelector(".btnFullStack");
 const cardsContainer = document.querySelector(".page-content");
 
-document.addEventListener("DOMContentLoaded", () => {
-  InyectNavBar(navBar);
-  getData("Frontend");
+document.addEventListener("DOMContentLoaded", async () => {
+  const languagesData = await fetchLanguagesData();
+  getData("Frontend", languagesData);
 });
 
-btnBackend.addEventListener("click", (event) => {
+btnBackend.addEventListener("click", async (event) => {
   event.preventDefault();
   if (!btnBackend.classList.contains("btnOn")) {
     btnFrontend.classList.remove("btnOn");
     btnFullStack.classList.remove("btnOn");
     btnBackend.classList.toggle("btnOn");
-    getData("Backend");
+    const languagesData = await fetchLanguagesData();
+    getData("Backend", languagesData);
   }
 });
 
-btnFrontend.addEventListener("click", (event) => {
+btnFrontend.addEventListener("click", async (event) => {
   event.preventDefault();
   if (!btnFrontend.classList.contains("btnOn")) {
     btnBackend.classList.remove("btnOn");
     btnFullStack.classList.remove("btnOn");
     btnFrontend.classList.toggle("btnOn");
-    getData("Frontend");
+    const languagesData = await fetchLanguagesData();
+    getData("Frontend", languagesData);
   }
 });
 
-btnFullStack.addEventListener("click", (event) => {
+btnFullStack.addEventListener("click", async (event) => {
   event.preventDefault();
   if (!btnFullStack.classList.contains("btnOn")) {
     btnFrontend.classList.remove("btnOn");
     btnBackend.classList.remove("btnOn");
     btnFullStack.classList.toggle("btnOn");
-    getData("Fullstack");
+    const languagesData = await fetchLanguagesData();
+    getData("Fullstack", languagesData);
   }
 });
-
 
 function clean() {
   Array.from(cardsContainer.children).forEach((child) => {
@@ -48,7 +50,7 @@ function clean() {
 }
 
 async function fetchLanguagesData() {
-  const url ="../../data/projects/languages.json";
+  const url = "../../data/projects/languages.json";
   try {
     const response = await fetch(url);
     const data = await response.json();
