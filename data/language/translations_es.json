@@ -1,7 +1,7 @@
 {
     "MAIN": "PRINCIPAL",
     "ABOUT_ME": "SOBRE MÍ",
-    "ABOUT_INFO": "Soy Juan Sebastián Fernández Montoya, un apasionado Desarrollador de Software con experiencia sólida en Python y Java, MySQL. Además, tengo habilidades en desarrollo frontend utilizando HTML, CSS y JavaScript. Mi enfoque integral me ha permitido liderar proyectos desde la concepción hasta la implementación, destacándome por crear soluciones innovadoras que impulsan el éxito del equipo. Estoy comprometido con la excelencia técnica y la entrega de productos de alta calidad que superan las expectativas del cliente. Estoy emocionado de seguir creciendo profesionalmente y asumiendo nuevos desafíos en el mundo del desarrollo de software.",
+    "ABOUT_INFO": "¡Hola! Soy Juan Sebastián Fernández Montoya, un Desarrollador de Software con experiencia en Java (Spring Boot), MySQL y desarrollo FrontEnd con HTML, CSS, JavaScript y Vue.js con Sass. Mi dominio de Git y Docker permite construir y mantener aplicaciones escalables de manera eficiente. Tengo un enfoque integral que me ha llevado a liderar proyectos exitosos desde su concepción hasta la implementación, siempre creando soluciones innovadoras. Me comprometo con la excelencia técnica y tengo habilidades en resolución de problemas y metodologías ágiles como Scrum, lo que garantiza adaptabilidad y resultados excepcionales en equipo.",
     "PROJECTS": "PROYECTOS",
     "LEVEL": "medio",
     "SERVICES": "SERVICIOS",
