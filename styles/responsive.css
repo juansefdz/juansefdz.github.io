@@ -20,19 +20,16 @@
     visibility: hidden;
   }
   /*MAIN SECTION*/
-  .pic {
-    display: flex;
-  }
+ 
   .home {
-    display: flex;
+    
     flex-direction: column;
-    position: relative;
-    flex-wrap: wrap;
-  }
-  .home-content {
-    text-align: center;
+    margin: 100px;
+    padding: 100px;
+    
     
   }
+  
   .cv-container{
     gap: 5px;
   }
