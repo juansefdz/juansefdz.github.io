@@ -2,16 +2,15 @@ import "../global.css";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "juanseFdz.dev",
+    default: "juanseFDZ.DEV",
     template: "",
   },
-  description: "Jr. Software Developer",
+  description: "Software Developer",
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "favicon.png",
   },
 };
 const inter = Inter({
@@ -31,12 +30,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-      <head>
-        <Analytics />
-      </head>
+      <head></head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${
+          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+        }`}
       >
         {children}
       </body>
