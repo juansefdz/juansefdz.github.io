@@ -1,0 +1,14 @@
+{
+  "languages": [
+    { "name": "HTML", "logoUrl": "/logos/html.png" },
+    { "name": "CSS", "logoUrl": "/logos/css.png" },
+    { "name": "SASS", "logoUrl": "/logos/sass.png" },
+    { "name": "JavaScript", "logoUrl": "/logos/js.png" },
+    { "name": "VUE", "logoUrl": "/logos/VUE.png" },
+    { "name": "Java", "logoUrl": "/logos/java.png" },
+    { "name": "Spring Boot", "logoUrl": "/logos/springboot.png" },
+    { "name": "MySQL", "logoUrl": "/logos/mysql.png" },
+    { "name": "Bootstrap", "logoUrl": "/logos/bootstrap.png" },
+    { "name": "TBD", "logoUrl": "/logos/TBD.png" }
+  ]
+}
