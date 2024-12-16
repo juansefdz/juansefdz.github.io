@@ -2,9 +2,7 @@
 
 import Particles from "../components/particles";
 import { Navigation } from "../components/nav";
-import Image from "next/image"; // Si estás usando Next.js
-import { Heading1 } from "lucide-react";
-import { F } from "@upstash/redis/zmscore-Dc6Llqgr";
+import Image from "next/image"; 
 import Footer from "../components/footer";
 import Link from "next/link";
 
