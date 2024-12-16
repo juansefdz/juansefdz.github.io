@@ -4,7 +4,8 @@ import Particles from "./components/particles";
 import Footer from "./components/footer";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "ProjectsDev", href: "/projects" },
+  { name: "LegalTech", href: "/legaltech" },
   { name: "About Me", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -44,7 +45,6 @@ export default function Home() {
         </div>
       </div>
 
-     
       <Footer />
     </div>
   );
