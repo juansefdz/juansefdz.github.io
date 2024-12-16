@@ -12,8 +12,9 @@
     "@next/font": "^13.5.4",
     "@next/mdx": "^13.5.4",
     "@upstash/redis": "^1.23.3",
+    "chronark.com": "file:",
     "contentlayer": "^0.3.4",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.18.0",
     "lucide-react": "^0.284.0",
     "markdown-wasm": "^1.2.0",
     "next": "^13.5.4",
@@ -25,6 +26,7 @@
     "rehype-pretty-code": "^0.10.1",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "3.0.1",
+    "swiper": "^11.1.15",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
