@@ -35,10 +35,10 @@ export const Navigation: React.FC = () => {
               Projects Dev
             </Link>
             <Link
-              href="/legaltech"
+              href="/services"
               className="duration-200 text-white hover:text-lime-500 font-light text-lg"
             >
-              LegalTech
+              Services
             </Link>
             <Link
               href="/about"
