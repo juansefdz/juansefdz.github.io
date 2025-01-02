@@ -33,8 +33,8 @@ export default function Home() {
 					prevIndex === messages.length - 1 ? 0 : prevIndex + 1
 				);
 				setIsFading(false);
-			}, 1000);
-		}, 20000);
+			}, 500);
+		}, 8000);
 
 		return () => clearInterval(interval);
 	}, []);
