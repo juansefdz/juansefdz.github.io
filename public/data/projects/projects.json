@@ -1,10 +1,17 @@
 {
   "Frontend": [
     {
+      "name": "KiwiDevSoft",
+      "url": "https://kiwi-dev-soft-nextjs.vercel.app/",
+      "description": "Página web en NextJs para KIWIdevSoft",
+      "imageUrl": "projectsImg/kiwidevsoft.png",
+      "languages": ["NextJs", "TypeScript"]
+    },
+    {
       "name": "Hierbabuena",
       "url": "https://juansefdz.com/hierbabuena//",
       "description": "proyecto página web para HierbaBuena",
-      "imageUrl": "projectsImg//hierbabuena.jpg",
+      "imageUrl": "projectsImg/hierbabuena.jpg",
       "languages": ["HTML", "CSS", "JavaScript"]
     },
     {
