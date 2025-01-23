@@ -131,6 +131,14 @@
   ],
   "Backend": [
     {
+      "name": "LocalStorage",
+      "url": "https://github.com/Riwi-Meta/LOCAL_STORAGE_BACKEND",
+      "description": "backend system for inventory and purchase order management. Its objective is to optimize and automate key processes, such as product and supplier control and order management, facilitating decision making and improving operational efficiency.",
+      "imageUrl": "projectsImg/backend/localstorage.png",
+      "languages": ["Java", "Spring Boot", "MySQL"]
+    },
+    
+    {
       "name": "Coders Manager",
       "url": "https://github.com/juansefdz/SPRINGBOOT/tree/main/ejerciciosClase/02_primeraWeb",
       "description": "Management of coders using Spring Boot where you can add or remove a coder or search by their name in a database.",
